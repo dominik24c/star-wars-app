@@ -1,0 +1,22 @@
+.characterItem {
+  background-color: gray;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.characterName {
+  padding: 0.2rem;
+  background-color: #44bdff;
+  border: 2px solid black;
+}
+
+.characterName:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.characterName p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}

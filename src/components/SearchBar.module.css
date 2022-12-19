@@ -1,0 +1,80 @@
+.SearchBar {
+  background-color: #fff;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 900px) {
+  .SearchBar {
+    width: 98%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .SearchBar {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) and(max-width: 1440px) {
+  .SearchBar {
+    width: 80%;
+  }
+}
+
+button {
+  background-color: #010192;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  min-width: 120px;
+  padding: 10px 5px;
+}
+
+button:hover,
+button:focus {
+  background-color: #0101a6;
+}
+
+input {
+  padding: 0.25em;
+  width: 200px;
+  font-size: 14pt;
+  outline: none;
+}
+
+select {
+  padding: 0.25em;
+  font-size: 14pt;
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  button,
+  input,
+  select {
+    width: 100%;
+  }
+  .SearchInput{
+    padding: 7px;
+  }
+}
+
+form {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 1rem 0;
+  justify-content: center;
+  width: 100%;
+}
+
+.SearchInput{
+  background-color: #44bdff;
+}

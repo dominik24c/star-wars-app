@@ -1,0 +1,30 @@
+.pagination {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.pagination > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 2px;
+}
+
+.pagination > ul > li {
+  margin: 0 1px;
+  border: 2px solid black;
+  padding: 0.5rem 0.8rem;
+  border-radius: 20%;
+}
+
+.link:hover {
+  cursor: pointer;
+  background-color: #d7d6d6;
+}
+
+.active {
+  background-color: #44bdff;
+}
